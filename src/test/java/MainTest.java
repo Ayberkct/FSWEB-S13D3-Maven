@@ -21,7 +21,7 @@ public class MainTest {
     @BeforeEach
     void setUp() {
         person = new Person("John", "Doe", 20);
-        wall = new Wall(10, 10);
+        wall = new Wall(10, 10); 
     }
 
     @DisplayName("Person sınıf değişkenleri doğru tipte mi ?")
